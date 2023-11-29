@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 import random
 num = random.randint(-10000, 10000)
-number = -98
-
 if number < 0:
         LD = -(abs(number) % 10)
     else:
